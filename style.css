@@ -1,0 +1,183 @@
+body{
+    background-color: #014D55;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.alar{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ section{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section p{
+    padding-top: 130px;
+    width: 500px;
+    color: white;
+}
+.bugi-vugi{
+ color: white;
+ font-size: 55px
+}
+.bot{
+    color: white;
+    font-size: 55px
+   }
+.rip{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section3{
+    flex-direction: column;
+    height: 1100px;
+background-color: #004047;
+}
+.pustoy{
+    width: 380px;
+}
+.pustoy1{
+    width: 250px;
+}
+.i{
+    margin-bottom: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section4{
+    background-color: #012F34;
+    flex-direction: column;
+    height: 300px;
+    margin-top: -20px;
+}
+.section5{
+    background-color: #E07373;
+    margin: -9px;
+}
+.section6{
+    height: 100px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.pusting{
+    width: 200px;
+}
+.rightun{
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav button{
+    color: white;
+    background-color: inherit;
+    border: white solid;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+}
+.chap{
+font-size: 45px;
+}
+.man{
+    color: white;
+    font-size: 45px;
+}
+main button{
+    color: black;
+    background-color: inherit;
+    border: black solid;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+}
+.girl{
+    color: white;
+    font-size: 65px;
+
+}
+
+
+
+
+.icon{
+  display: none;
+}
+
+
+
+
+
+
+
+
+.icon {
+    display: none;
+  }
+  @media (max-width: 768px) {
+    section{
+      flex-direction: column;
+    }
+    .section3{
+    flex-direction: column;
+    }
+    .section4{
+      flex-direction: column;
+    }
+    .section5{
+      flex-direction: column;
+    }
+    .section6{
+      flex-direction: column;
+    }
+    .i{
+      flex-direction: column;
+    }
+    .rip{
+     flex-wrap: wrap;
+    }
+    .i{
+     flex-wrap: wrap;
+    }
+  }
+
+
+  
+  
+
+
+
+
+
+
+
+
+  @media (max-width: 405px) {
+    .alar {
+      display: none;
+    }
+    .icon {
+      display: block;
+      width: 50px;
+      height: 50px;
+      padding: 10px;
+    }
+
+  }
